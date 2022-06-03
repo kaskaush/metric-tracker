@@ -1,0 +1,32 @@
+{
+    "name": "metric-tracker",
+    "version": "1.0.0",
+    "description": "A client side metric tracking script for page views, clicks and more",
+    "main": "index.js",
+    "scripts": {
+        "build": "rimraf dist && gulp build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kaskaush/metric-tracker.git"
+    },
+    "keywords": [
+        "analytics",
+        "metrics",
+        "page views",
+        "clicks"
+    ],
+    "author": "kaskaush",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kaskaush/metric-tracker/issues"
+    },
+    "homepage": "https://github.com/kaskaush/metric-tracker#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
+        "readable-stream": "^3.6.0",
+        "rimraf": "^3.0.2"
+    }
+}
